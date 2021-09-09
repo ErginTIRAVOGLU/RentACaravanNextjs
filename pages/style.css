@@ -1,0 +1,152 @@
+.baslikDiv{
+    display:flex;
+    align-items:flex-start;
+}
+.baslikDiv  div:nth-child(1) {
+    display:inline;
+    min-width:220px;
+    font-weight:700;
+}
+
+.baslikDiv  div:nth-child(2) {
+    display:inline
+}
+
+.borderradius{
+    border-radius: 10px;
+}
+
+.CardTitle {
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	line-height: 23px;
+    font-weight: 700;
+    height: 25.8064px;
+    color: #004F92;
+    font-size: 20.32px;
+}
+
+.CardType {
+	
+        display: flex;
+        line-height: 20.32px;
+        padding-bottom: 7.8110392441px;
+        font-size: 12.5984251969px;
+        font-weight: 400;
+        color: #1E3440;
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+}
+
+.CardLocationAndRating {
+	display: flex;
+	justify-content: flex-start;
+	line-height: 32.774128px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "metro-sans-regular", "Helvetica Neue", Arial, sans-serif;
+    font-weight: 600;
+}
+
+/* Style The Dropdown Button */
+.dropbtn {
+    /*background-color: #4CAF50;
+    color: white;*/
+    /*padding: 16px;*/
+    font-size: 16px;
+    /*border: none;*/
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdownER {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdownER-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 230px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+    
+      background-color: #eaeaea;
+      
+      z-index: 55;
+      width: auto;
+      
+      flex-direction: column;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdownER-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdownER-content a:hover {  /*background-color: #f1f1f1*/}
+  
+  /* Show the dropdown menu on hover */
+  .dropdownER:hover .dropdownER-content {
+    display: flex;
+    /*right: 0px !important;*/  
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdownER:hover .dropbtn {
+   /* background-color: #3e8e41;*/
+  }
+
+  .btn:focus{
+    box-shadow: none;
+  }
+  .accordion-button:focus{
+    box-shadow: none;
+  }
+  .btn-primary:focus{
+    box-shadow: none;
+  }
+
+  .tarihContent:hover {
+    
+    /*display: grid;*/
+    /*width: 558px;
+    height: 344px;*/
+    /*position: absolute;*/
+
+  }
+  .tarihContent:hover .dropdownER-content {
+    display: flex;
+    right: 0px !important;
+  }
+
+  .rdrDefinedRangesWrapper{
+    display:none;
+  }
+  .accordion-button{
+    padding: 0.50rem 1rem;
+  }
+
+  .accordion-button::after {
+      width: 0.75rem;
+      height: 0.75rem;
+      background-size: 0.75rem;
+     
+  }
+
+  .accordion-button:not(.collapsed){  
+font-weight: bold;
+  }
+  .accordion-body{
+    background-color: #f7f9fd
+  }
